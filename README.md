@@ -17,9 +17,16 @@ make
 
 or
 
-
 ```bash
 gcc -o quicknode *.c
+```
+
+---
+
+run with:
+
+```bash
+./quicknode
 ```
 
 License
