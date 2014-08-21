@@ -59,6 +59,7 @@ typedef struct node{
 node* create_node(char *key, char *value);
 node* insert(node *root, char *key, char *value);
 node* min(node *root);
+node* max(node *root);
 node* delete(node *root, char *key);
 node* search(node *root, char *key);
 
