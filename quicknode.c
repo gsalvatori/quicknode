@@ -171,9 +171,9 @@ node* max(node *root){
 		return NULL;
 	}
 	
-	if (node->right){
+	if (root->right){
 		
-		return max(node->right);
+		return max(root->right);
 	}
 	
 	else{
