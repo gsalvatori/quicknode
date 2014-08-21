@@ -155,6 +155,38 @@ node* min(node *root){
 
 /*
  *
+ *  Find maximum node in the tree starting from root
+ *
+ * -param root:   root node
+ *
+ * -return: return the maximum node in the tree
+ *
+ *
+ */
+ 
+node* max(node *root){
+	
+	if (root == NULL){
+		
+		return NULL;
+	}
+	
+	if (node->right){
+		
+		return max(node->right);
+	}
+	
+	else{
+		
+		return root;
+	}
+	
+}
+
+
+
+/*
+ *
  * Remove a node with specified key
  *
  * -param root
