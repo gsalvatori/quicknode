@@ -11,6 +11,7 @@ int main (){
 	node *two;
 	node *three;
 
+        /* set keys and values for nodes */
 	char *key = "first";
 	char *value = "element1";
 
@@ -20,17 +21,19 @@ int main (){
 	char *key2 = "third";
 	char *value2 = "element3";
 
+        /* insert nodes into the tree */
 	root = insert(root, key, value);
 	two = insert(root,key1,value1);
 	three = insert(root,key2,value2);
 
-
+        /* printing the entire tree */
 	print_tree(root);
 
+        /* delete the node with the "key1" key */
 	node* dlt;
+        dlt = delete(root,key1);
 
-	dlt = delete(root,key1);
-
+        /* printing again tree to see differences */
 	print_tree(root);
 	
 
