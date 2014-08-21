@@ -35,7 +35,7 @@
 
 /*
  *
- * Create a new node with key and value
+ *  Create a new node with key and value
  *
  * -param key:    new node key
  * -param value:  new node value
@@ -118,6 +118,17 @@ node* insert(node *root, char *key, char *value){
 
 
 
+/*
+ *
+ *  Find minimum node in the tree starting from root
+ *
+ * -param root:   root node
+ *
+ * -return: return the minimum node in the tree
+ *
+ *
+ */
+
 node* min(node *root){
 
 	if (root == NULL){
@@ -141,19 +152,18 @@ node* min(node *root){
 }
 
 
+
 /*
  *
- * Remove a node with specified key and value
+ * Remove a node with specified key
  *
  * -param root
  * -param key
- * -param value
  *
- * -return
+ * -return node*
  *
  *
  */
-
 
 node* delete(node *root, char *key){
 
@@ -220,7 +230,7 @@ node* delete(node *root, char *key){
 
 /*
  *
- * Search a node for a specified key
+ *  Search a node for a specified key
  *
  * -param root: root node
  * -param key: key to search
@@ -271,9 +281,10 @@ node* search(node *root, char *key){
 }
 
 
+
 /*
  *
- * Print a node
+ *  Print a node
  *
  *
  * -param target: node to print
@@ -294,9 +305,10 @@ void print_node(node *target){
 }
 
 
+
 /*
  *
- * Print the entire tree
+ *  Print the entire tree
  *
  *
  * -param target: first node
@@ -331,25 +343,6 @@ void print_tree(node *target){
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
