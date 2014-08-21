@@ -316,6 +316,35 @@ node* search(node *root, char *key){
 
 /*
  *
+ *  Inorder tree traversal
+ *
+ * -param root:   root node
+ *
+ * -return: return the entire tree with inorder traversal algorithm
+ *
+ *
+ */
+ 
+void traverse(node *root){
+	
+	
+	if(root == NULL){
+		
+		return;
+	}
+	
+	
+	traverse(root->left);
+	
+	printf("%s",root->value);
+	
+	traverse(root->right);
+	
+}
+
+
+/*
+ *
  *  Print a node
  *
  *
@@ -375,7 +404,3 @@ void print_tree(node *target){
 	}
 
 }
-
-
-
-
