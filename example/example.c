@@ -8,8 +8,8 @@ int main (){
 
 
 	node *root = NULL;
-	node *due;
-	node *tre;
+	node *two;
+	node *three;
 
 	char *key = "first";
 	char *value = "element1";
@@ -21,8 +21,8 @@ int main (){
 	char *value2 = "element3";
 
 	root = insert(root, key, value);
-	due = insert(root,key1,value1);
-	tre = insert(root,key2,value2);
+	two = insert(root,key1,value1);
+	three = insert(root,key2,value2);
 
 
 	print_tree(root);
