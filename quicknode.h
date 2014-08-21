@@ -47,7 +47,7 @@
 
 typedef struct node{
 
-  char *key;
+        char *key;
 	char *value;
 
 	struct node *left;
