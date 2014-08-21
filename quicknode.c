@@ -48,7 +48,7 @@
 node* create_node(char *key, char *value){
 
 	node *new;
-  new = (node*)malloc( sizeof(node) );
+        new = (node*)malloc( sizeof(node) );
 
 	// copying values to node
 	strcpy(new->key,key);
