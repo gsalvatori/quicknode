@@ -8,8 +8,14 @@ Compile
 ---
 
 ```bash
+cd quicknode
+```
+
+```bash
 make
 ```
+
+or
 ----
 
 ```bash
