@@ -7,7 +7,7 @@ A tiny library to use dictionaries in C language using BST (Binary Search Tree).
 why use binary search trees
 ---
 
-Because it's **fast**. You can search, delete and insert nodes in O(log n), rather than using sorted arrays that takes O(n) time to run the insert and remove functions.
+Because it's **fast**. You can search, delete and insert nodes in O(log n), rather than using sorted arrays that takes O(n) time to run insert and remove functions.
 
 
 compile
