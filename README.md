@@ -11,8 +11,8 @@ Because it's **fast**. You can search, delete and insert nodes in O(log n), rath
 
 A binary search tree is a binary tree such that for any node **n**
 
-– The elements of the left subtree of n have values smaller or equal to n
-– The elements of the right subtree of n have values larger or equal to n
+* The elements of the left subtree of n have values smaller or equal to n
+* The elements of the right subtree of n have values larger or equal to n
 
 
 compile
