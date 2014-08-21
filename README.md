@@ -16,7 +16,7 @@ make
 ```
 
 or
-----
+
 
 ```bash
 gcc -o quicknode *.c
