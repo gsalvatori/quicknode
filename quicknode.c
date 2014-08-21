@@ -35,7 +35,7 @@
 
 /*
  *
- * Create a new node with key and value [opzionale]
+ * Create a new node with key and value
  *
  * -param key:    new node key
  * -param value:  new node value
