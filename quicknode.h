@@ -64,6 +64,8 @@ node* delete(node *root, char *key);
 node* search(node *root, char *key);
 
 
+
+void traverse(node *root);
 void print_node(node *target);
 void print_tree(node *target);
 
