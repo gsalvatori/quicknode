@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "quicknode.h"
+#include "../quicknode.h"
 
 int main (){
 
